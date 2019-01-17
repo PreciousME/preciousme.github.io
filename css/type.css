@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'IBMPlexSans';
+  src: url('fonts/IBMPlexSans.eot?#iefix') format('embedded-opentype'),  
+       url('fonts/IBMPlexSans.woff') format('woff'), 
+       url('fonts/IBMPlexSans.ttf')  format('truetype'), 
+       url('fonts/IBMPlexSans.svg#IBMPlexSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBMPlexSans-Medium';
+  src: url('fonts/IBMPlexSans-Medium.eot?#iefix') format('embedded-opentype'),  
+       url('fonts/IBMPlexSans-Medium.woff') format('woff'), 
+       url('fonts/IBMPlexSans-Medium.ttf')  format('truetype'), 
+       url('fonts/IBMPlexSans-Medium.svg#IBMPlexSans-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IBMPlexSans-Bold';
+  src: url('fonts/IBMPlexSans-Bold.eot?#iefix') format('embedded-opentype'),  
+       url('fonts/IBMPlexSans-Bold.woff') format('woff'), 
+       url('fonts/IBMPlexSans-Bold.ttf')  format('truetype'), 
+       url('fonts/IBMPlexSans-Bold.svg#IBMPlexSans-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quarto-Regular';
+  src: url('fonts/Quarto-Regular.eot?#iefix') format('embedded-opentype'),  
+       url('fonts/Quarto-Regular.woff') format('woff'), 
+       url('fonts/Quarto-Regular.ttf')  format('truetype'), 
+       url('fonts/Quarto-Regular.svg#Quarto-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
