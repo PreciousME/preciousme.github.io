@@ -339,4 +339,78 @@ tes {
   font-weight: 300;
 }
 
+@media only screen and (min-width: 1200px) {
+  body {
+    display: flex;
+    padding: 0;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  section.hero-content {
+    position: fixed;
+    width: 50%;
+    border-right: 1px solid rgba(255, 255, 255, .5);
+    height: 100vh;
+    padding: 72px;
+  }
+
+  section.about {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    padding: 8rem;
+    padding-top: 220px;
+    margin: 0;
+  }
+
+  img.desktop-logo {
+    display: block;
+    width: 32px;
+    margin: 0 auto;
+  }
+
+  .line {
+    display: none;
+  }
+
+  footer.social {
+    display: block;
+  }
+
+  footer.social a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 24px;
+  }
+
+  .hero h1 {
+    font-size: 62px;
+    margin-bottom: 40vh;
+    margin-top: 30vh;
+  }
+
+  .bg-img {
+    height: 364;
+    top: 140px;
+    left: 52px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .derek, .optimistic, .playlist, .contact {
+    width: 30vw;
+}
+
+p {
+  font-size: 18px;
+  line-height: 32px;
+}
+}
+
 
