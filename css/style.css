@@ -362,7 +362,8 @@ tes {
     position: absolute;
     right: 0;
     padding: 8rem;
-    padding-top: 220px;
+    padding-top: 20rem;
+    padding-bottom: 2rem;
     margin: 0;
   }
 
@@ -394,7 +395,7 @@ tes {
   }
 
   .bg-img {
-    height: 364;
+    height: 364px;
     top: 140px;
     left: 52px;
   }
@@ -407,10 +408,53 @@ tes {
     width: 30vw;
 }
 
-p {
-  font-size: 18px;
-  line-height: 32px;
-}
+  p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .optimistic-img {
+    height: 380px;
+    top: -338px;
+  }
+
+  .optimistic, .experience, .contact {
+    margin-top: 38rem;
+  }
+
+  .playlist {
+    margin-top: 26rem;
+  }
+
+  .playlist-img {
+    top: -65px;
+    left: 100px;
+  }
+   
+  .contact-img {
+    height: 400px;
+    top: -280px;
+  }
+
+
+  .deep-soul {
+    height: 400px;
+    top: -240px;
+  }
 }
 
 
+@media only screen and (min-width: 1400px) {
+  .bg-img {
+    height: 400px;
+    top: 146px;
+    left: 86px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .bg-img {
+    top: 168px;
+    left: 146px;
+  }
+}
