@@ -1,0 +1,16 @@
+body {
+  animation: pagecrossfade 1s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out; }
+
+@keyframe pagecrossfade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes pagecrossfade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
