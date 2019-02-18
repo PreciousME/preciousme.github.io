@@ -57,7 +57,7 @@ img.logo {
     margin-top: 128px;
 }
 
-.header-links a {
+.header-links a, .footer a {
     font-size: 12px;
     font-family: 'Akkurat';
     margin-left: 16px;
@@ -68,7 +68,7 @@ img.logo {
     transition: color ease 0.3s;
 }
 
-.header-links a::after {
+.header-links a::after, .footer a::after {
     content: "";
     position: absolute;
     z-index: -1;
@@ -80,12 +80,16 @@ img.logo {
     transition: all ease 0.3s;
 }
 
+.logo a::after {
+    display: none;
+}
+
 header.header {
     display: flex;
     align-items: center;
 }
 
-.header-links {
+.header-links, .footer-links {
     width: 67%;
     text-align: right;
 }
@@ -156,6 +160,29 @@ content: "";
     display: none;
 }
 
+.others {
+    margin: 140px 0 140px 0;
+}
+
+.footer p {
+    font-size: 12px;
+    font-family: 'Akkurat';
+    color: #888888;
+    font-style: normal;
+}
+
+.copyrite {
+    display: none;
+}
+
+.logo a {
+    margin-left: 0;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
 
 
 
