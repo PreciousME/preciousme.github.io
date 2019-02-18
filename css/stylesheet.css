@@ -94,6 +94,12 @@ header.header {
     width: 30%;
 }
 
+h2 {
+    font-size: 24px;
+    line-height: 48px;
+    font-family: 'P-T-R';
+}
+
 /*
 p.first-p-desktop {
     display: none;

@@ -25,7 +25,7 @@
 }
 
 @font-face {
-  font-family: 'TiemposHeadline-Regular';
+  font-family: 'P-H-R';
   src: url('fonts/P-H-R.eot?#iefix') format('embedded-opentype'),  url('fonts/P-H-R.otf')  format('opentype'),
 	     url('fonts/P-H-R.woff') format('woff'), url('fonts/P-H-R.ttf')  format('truetype'), url('fonts/P-H-R.svg#P-H-R') format('svg');
   font-weight: normal;
@@ -33,7 +33,7 @@
 }
 
 @font-face {
-  font-family: 'TiemposText-Regular';
+  font-family: 'P-T-R';
   src: url('fonts/P-T-R.eot?#iefix') format('embedded-opentype'),  url('fonts/P-T-R.woff') format('woff'), url('fonts/P-T-R.ttf')  format('truetype'), url('fonts/P-T-R.svg#P-T-R') format('svg');
   font-weight: normal;
   font-style: normal;
