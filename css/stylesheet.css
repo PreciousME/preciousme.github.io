@@ -50,12 +50,51 @@ text-decoration: none;
 
 img.logo {
     height: 32px;
+    margin-top: 16px;
 }
 
 .content {
     margin-top: 128px;
 }
 
+.header-links a {
+    font-size: 12px;
+    font-family: 'Akkurat';
+    margin-left: 16px;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    transition: color ease 0.3s;
+}
+
+.header-links a::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 2%;
+    left: 0;
+    bottom: 15px;
+    background-color: #0c0c0c;
+    transition: all ease 0.3s;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+.header-links {
+    width: 67%;
+    text-align: right;
+}
+
+.logo {
+    width: 30%;
+}
+
+/*
 p.first-p-desktop {
     display: none;
 }
@@ -241,10 +280,10 @@ position: relative;
     [tooltip]:hover::after {
         opacity: 1;
     }*/
-    
+  /*  
 }
 
 img.cool_emoji {
     height: 32px;
-}
+} */
   
