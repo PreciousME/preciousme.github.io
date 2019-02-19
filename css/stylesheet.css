@@ -48,7 +48,7 @@ color: inherit;
 text-decoration: none;
 }
 
-img.logo {
+img.p-logo {
     height: 32px;
     margin-top: 16px;
 }
@@ -135,6 +135,13 @@ h6 {
     transition: color ease 0.3s;
 }
 
+@media only screen and (min-width: 360px) {
+.portfolio-list a {
+    font-size: 18px;
+    line-height: 28px;
+}
+}
+
 .portfolio-list a::after {
 content: "";
     position: absolute;
@@ -147,6 +154,18 @@ content: "";
     transition: all ease 0.3s;
 }
 
+@media only screen and (min-width: 360px) {
+    .portfolio-list a::after {
+        bottom: 8px;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .portfolio-list a::after {
+        bottom: 16px;
+    }
+}
+
 .portfolio-list a:hover::after {
     height: 37%;
 
@@ -156,7 +175,7 @@ content: "";
     color: #ffffff;
 }
 
-.portfolio-list img {
+.portfolio-img {
     display: none;
 }
 
@@ -184,6 +203,103 @@ content: "";
     align-items: center;
 }
 
+@media only screen and (min-width: 400px) {
+    body {
+        padding: 32px;
+    }
+}
+
+body {
+    padding-top: 8px;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        padding: 72px;
+        padding-top: 24px;
+    }
+
+    h2 {
+        font-size: 42px;
+        line-height: 78px;
+    }
+
+    img.p-logo {
+        height: inherit;
+    }
+
+    .header-links a, .footer a {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .header-links a::after, .footer a::after {
+        height: 8%;
+        bottom: 6px;
+    }
+
+    .portfolio-list a {
+        font-size: 24px;
+        line-height: 48px;
+    }
+
+    .portfolio-list h6,   .portfolio-list h2 {
+        margin-bottom: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    .header-links, .footer-links {
+        width: 70%;
+    }
+
+    .portfolio-list {
+        display: flex;
+        align-items: center;
+    }
+
+    .portfolio-list {
+        display: flex;
+        align-items: center;
+    }
+
+    .portfolio-img {
+        display: block;
+        width: 40%;
+        text-align: right;
+    }
+
+    .advance, .hotels, .toctic {
+        width: 60%;
+    }
+
+    .portfolio-img img {
+        width: 300px;
+    }
+
+    .portfolio-list h6, .portfolio-list h2 {
+        margin-bottom: 72px;
+    }
+
+    .portfolio h6 {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 58px;
+        line-height: 86px;
+        font-family: 'P-H-R';
+    }
+
+    .portfolio-list h2 {
+        width: 70%;
+    }
+}
 
 
 /*
