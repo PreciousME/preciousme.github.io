@@ -4,7 +4,7 @@
     font-size: 24px;
     line-height: 40px;
     color: #0c0c0c;
-    font-family: 'TiemposText-Regular';
+    font-family: 'P-T-R';
     font-weight: normal;
     font-style: normal;
     overflow-x: hidden;
@@ -46,6 +46,12 @@ a {
 cursor: pointer;
 color: inherit;
 text-decoration: none;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
 }
 
 img.p-logo {
@@ -100,13 +106,17 @@ header.header {
 
 h2 {
     font-size: 24px;
-    line-height: 48px;
+    line-height: 38px;
     font-family: 'P-T-R';
     font-weight: normal;
 }
 
-.portfolio-list {
+.portfolio {
     margin-top: 140px;
+}
+
+.portfolio-list {
+    margin-bottom: 140px;
 }
 
 h6 {
@@ -122,56 +132,62 @@ h6 {
     margin-bottom: 24px;
 }
 
-.portfolio-list h2 {
+.portfolio-list h2, .others h2 {
     margin-bottom: 24px;
 }
 
-.portfolio-list a {
+.portfolio-list a, .others a {
     font-size: 15px;
+    line-height: 25px;
     position: relative;
     text-decoration: none;
     display: inline-block;
     color: #0c0c0c;
     transition: color ease 0.3s;
+    font-family: 'P-T-R';
+    font-style: normal;
 }
 
 @media only screen and (min-width: 360px) {
-.portfolio-list a {
-    font-size: 18px;
-    line-height: 28px;
-}
+    .portfolio-list a .others a {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .portfolio-list {
+        margin-bottom: 148px;
+    }
 }
 
-.portfolio-list a::after {
+.portfolio-list a::after, .others a::after {
 content: "";
     position: absolute;
     z-index: -1;
     width: 100%;
-    height: 6%;
+    height: 8%;
     left: 0;
-    bottom: 14px;
+    bottom: 8px;
     background-color: #0c0c0c;
     transition: all ease 0.3s;
 }
 
 @media only screen and (min-width: 360px) {
-    .portfolio-list a::after {
+    .portfolio-list a::after, .others a::after {
         bottom: 8px;
     }
 }
 
 @media only screen and (min-width: 400px) {
-    .portfolio-list a::after {
+    .portfolio-list a::after, .others a::after {
         bottom: 16px;
     }
 }
 
-.portfolio-list a:hover::after {
+.portfolio-list a:hover::after, .others a:hover::after {
     height: 37%;
-
 }
 
-.portfolio-list a:hover {
+.portfolio-list a:hover, .others a:hover {
     color: #ffffff;
 }
 
@@ -237,12 +253,13 @@ body {
         bottom: 6px;
     }
 
-    .portfolio-list a {
+    .portfolio-list a, .others a {
         font-size: 24px;
         line-height: 48px;
+        
     }
 
-    .portfolio-list h6,   .portfolio-list h2 {
+    .portfolio-list h6, .portfolio-list h2, .others h2 {
         margin-bottom: 40px;
     }
 
@@ -282,7 +299,7 @@ body {
         width: 300px;
     }
 
-    .portfolio-list h6, .portfolio-list h2 {
+    .portfolio-list h6, .portfolio-list h2, .others h2 {
         margin-bottom: 72px;
     }
 
@@ -299,8 +316,183 @@ body {
     .portfolio-list h2 {
         width: 70%;
     }
+
+    .portfolio {
+         margin-top: 400px;
+    }
+
+    .portfolio-list {
+        margin-bottom: 400px;
+    }
+
+    .portfolio-img {
+    
+        text-align: center;
+    }
+
+    .portfolio-img.hotels-img img {
+        width: 550px;
+    }
 }
 
+/*--------------------Hotels--------------------*/
+
+section.case-hero {
+    margin-top: 72px;
+}
+
+h4 {
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'P-T-R';
+    font-weight: normal;
+}
+
+.case-intro-desktop {
+    display: none;
+}
+
+.case-hero p {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Akkurat';
+    font-weight: normal;
+    color: #0c0c0c;
+}
+
+p.intro-meta-title {
+    color: #888888;
+    font-size: 12px;
+}
+
+p.intro-meta-details {
+    margin-bottom: 12px;
+}
+
+.case-meta h4 {
+    margin-bottom: 24px;
+}
+
+.case-hero-img {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: 48px;
+}
+
+.case-hero-img img {
+    width: 85vw;
+}
+
+.disclaimer {
+    margin-top: 40px;
+}
+
+.disclaimer p {
+    font-size: 12px;
+    font-family: 'Akkurat';
+    color: #888888;
+}
+
+.disclaimer span {
+    color: #0c0c0c;
+}
+
+section.case-content {
+    margin-top: 72px;
+}
+
+i {
+    color: red;
+}
+.hotels-background h2, .hotels-challenge h2, .hotels-goals h2, .advance-problem h2, .star, .case-heading h3  {
+    margin-bottom: 12px;
+}
+
+h3.measure {
+    margin-top: 24px;
+}
+
+section.case-content p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.case-img, .competitive-analysis-img, .hotels-inspiration, .problem-img {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.case-img img, .competitive-analysis-img img, .hotels-inspiration img, .problem-img img {
+    width: 85vw;
+}
+
+p.img-description {
+    font-size: 12px !important;
+    line-height: 20px;
+    font-family: 'Akkurat';
+    color: #888888;
+}
+
+.hotels-challenge, .hotels-goals, .hotels-Process, .imagine, .the-stage, .star, .case-heading {
+    margin-top: 72px;
+}
+
+.case-heading ul.goals-list {
+    margin-top: 24px;
+}
+
+ul.goals-list li {
+    margin-bottom: 24px;
+    position: relative;
+}
+
+ul.goals-list {
+   
+    padding-left: 24px;
+}
+
+ul.goals-list li::before {
+    content: "";
+    height: 4px;
+    background-color: #0c0c0c;
+    position: absolute;
+    width: 4px;
+    left: -22px;
+    top: 10px;
+    border-radius: 50px;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'P-T-R';
+    font-weight: normal;
+}
+
+.hotels-Process h2, .hotels-discovery h2, .advance-problem h2, .the-stage h2, .case-heading h2 {
+    margin-bottom: 24px;
+}
+
+.hotels-Process h3, .hotels-discovery h3, .advance-problem h3, .imagine h2, .the-stage h3, .research h2 {
+    margin-bottom: 12px;
+}
+
+.hotels-discovery span {
+    font-family: 'P-H-R';
+    letter-spacing: .8px;
+}
+
+.hotels-discovery h4 {
+    font-family: 'Akkurat';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    line-height: 20px;
+}
 
 /*
 p.first-p-desktop {
