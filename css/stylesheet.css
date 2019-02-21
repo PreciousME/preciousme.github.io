@@ -128,11 +128,11 @@ h6 {
     font-weight: normal;
 }
 
-.portfolio-list h6 {
+.portfolio-list h6, .others h6 {
     margin-bottom: 24px;
 }
 
-.portfolio-list h2, .others h2 {
+.portfolio-list h2, .others h3 {
     margin-bottom: 24px;
 }
 
@@ -259,7 +259,7 @@ body {
         
     }
 
-    .portfolio-list h6, .portfolio-list h2, .others h2 {
+    .portfolio-list h6, .portfolio-list h2, .others h3, .others h6 {
         margin-bottom: 40px;
     }
 
@@ -299,11 +299,11 @@ body {
         width: 300px;
     }
 
-    .portfolio-list h6, .portfolio-list h2, .others h2 {
+    .portfolio-list h6, .portfolio-list h2, .others h3, .others h6 {
         margin-bottom: 72px;
     }
 
-    .portfolio h6 {
+    .portfolio h6, .others h6 {
         font-size: 15px;
     }
 
