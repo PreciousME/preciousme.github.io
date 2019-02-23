@@ -164,7 +164,7 @@ content: "";
     position: absolute;
     z-index: -1;
     width: 100%;
-    height: 8%;
+    height: 4%;
     left: 0;
     bottom: 8px;
     background-color: #0c0c0c;
@@ -184,7 +184,7 @@ content: "";
 }
 
 .portfolio-list a:hover::after, .others a:hover::after {
-    height: 37%;
+    height: 45%;
 }
 
 .portfolio-list a:hover, .others a:hover {
@@ -509,7 +509,7 @@ h3 {
     h3 {
         font-size: 28px;
         line-height: 48px;
-        font-family: 'P-H-R';
+        font-family: 'P-T-R';
     }
 }
 
@@ -584,6 +584,12 @@ h3 {
 
 .advance-bank .footer {
     margin-top: 72px;
+}
+
+a.advance-link {
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
 }
 
 /*
