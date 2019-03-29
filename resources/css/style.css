@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.body {
+    background-color: #fffbe5;
+    color: #443100;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 200;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    
+}
+
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.container {
+    margin: 16px;
+}
+
+header {
+    text-align: center;
+}
+
+.logo {
+    width: 84%;
+    padding-top: 20px;
+    padding-bottom: 28px;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+.about-doziealvan {
+    background-color: #fff;
+    padding: 28px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.about-doziealvan h2 {
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
+.twitter-logo {
+    width: 100%;
+    background-color: #00abe8;
+    text-align: center;
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+.twitter-logo:hover {
+    transform: scale(1.05);
+}
+
+.twitter-logo img {
+    width: 20%;
+    padding-top: 60px;
+    padding-bottom: 56px;
+}
+
+@media only screen and (min-width: 360px) {
+    .twitter-logo img {
+        width: 28%;
+    }
+}
+
+.instagram-logo {
+    background-image: linear-gradient(to right,#ec0010, #9f05b8, #1d02c6);
+    text-align: center;
+    margin: 16px 0;
+}
+
+.instagram-logo img {
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+@media only screen and (min-width: 360px) {
+    .instagram-logo img {
+        padding-top: 30px;
+        padding-bottom: 18px;
+    }
+}
+
+.small-social-cards {
+    display: grid;
+    margin-bottom: 16px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.github-logo {
+    background-color: #fff;
+    text-align: center;
+}
+
+.github-logo img, .linkedin-logo img {
+    width: 92%;
+    padding: 36px;
+}
+
+.linkedin-logo {
+    background-color:#0071a1;
+    text-align: center;
+}
+
+.social-cards-2 {
+    background-color: #fff;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 40px;
+    margin-bottom: 16px;
+}
+
+.usher-A img {
+    width: 100%;
+}
+
+.usher-A {
+    text-align: center;
+}
+
+.usher-A h2 {
+    padding: 16px;
+}
+
+.usher-A h4 {
+    font-size: 12px;
+}
+
+.usher-A a {
+    background-color: #17db61;
+    color: #fff;
+    border-radius: 28px;
+    margin-top: 40px;
+    padding: 12px 28px;
+    display: inline-block;
+}
+
+.spotify p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.gmail {
+    background-color: #0c0c0c;
+    text-align: center;
+    padding: 28px 16px;
+    margin-bottom: 16px;
+}
+.gmail p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.attributes p {
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+}
+
+.attributes a {
+    color: #443100;
+    opacity: 0.8;
+}
+
+.attributes {
+    padding: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

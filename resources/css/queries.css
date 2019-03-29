@@ -1,0 +1,66 @@
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .container {
+        margin: 0 72px;
+    }
+
+    .about-doziealvan {
+        padding: 72px;
+    }
+
+    .about-doziealvan h2 {
+        font-size: 28px;
+        padding-bottom: 28px;
+    }
+
+    .about-doziealvan p {
+        font-size: 24px;
+    }
+
+    .social-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0 16px;   
+    }
+
+    .twitter-logo img {
+        width: 32%;
+        padding-top: 76px;
+        padding-bottom: 72px;
+    }
+
+    .gmail p {
+        font-size: 24px;
+        padding: 16px 0;
+    }
+
+    .attributes {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1023px) {
+    .container {
+        margin: 0 264px;
+    }
+
+    .about-doziealvan h2 {
+        font-size: 20px;
+        padding-bottom: 24px;
+    }
+
+    .about-doziealvan p {
+        font-size: 20px;
+    }
+
+    .twitter-logo img {
+        width: 32%;
+    }
+
+    .gmail p {
+        font-size: 24px;
+    }
+}
