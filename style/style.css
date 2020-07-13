@@ -64,10 +64,9 @@ html {
 body {
   min-height: 100%;
   font-size: 100%;
-  font-weight: normal !important;
-  font-style: normal !important;
   position: relative;
-  font-family: 'SpaceGrotesk-Regular', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+  
 }
 article,
 aside,
@@ -209,16 +208,15 @@ h1 {
 } */
 
 
-h1 {
+h1, h2 {
   color: #006FF2;
   font-size: 2rem;
   line-height: 1.3;
-  font-family: 'SpaceGrotesk-SemiBold', sans-serif;
-  font-weight: normal !important;
-  font-style: normal !important;
+  letter-spacing: -.75px;
+  font-weight: 500;
 }
 @media only screen and (min-width: 768px) {
-  h1 {
+  h1, h2 {
   font-size: 3.125rem;
   }
 }
@@ -231,8 +229,13 @@ h1 {
 @media only screen and (min-width: 768px) {
   .content {
   padding: 3rem 4rem 4rem 4rem;
-  width: 57vw;
+  width: 58.42vw;
   height: 105vh;
+  margin-bottom: 4rem;
+}
+
+.about .content {
+  height: 100%;
 }
 }
 
@@ -243,7 +246,7 @@ h1 {
   }
 }
 
-h1#output {
+h1#output, h2#outpu {
   margin: 20vh 0 2rem 0;
 }
 
@@ -274,12 +277,12 @@ header {
 }
 
 a#btn, input.tweet {
-  font-family: 'SpaceGrotesk-SemiBold', sans-serif;
   font-size: 1.25rem;
   border: none;
   width: -webkit-fill-available;
   color: white;
   height: 52px;
+  font-weight: 500;
 }
 
 @media only screen and (min-width: 768px) {
@@ -291,7 +294,7 @@ a#btn, input.tweet {
 
 h3 {
   font-size: 1.25rem;
-  font-family: 'SpaceGrotesk-SemiBold', sans-serif;
+  font-weight: 500;
 }
 
 @media only screen and (min-width: 768px) {
@@ -306,6 +309,15 @@ h3 {
   position: relative;
   font-size: 1.25rem;
 }
+
+.about .next {
+  background-color: #ffffff;
+}
+
+.about h3 {
+  color: #080808;
+  font-size: 2rem;
+}
 @media only screen and (min-width: 768px) {
   .next {
     height: 50vh;
@@ -317,6 +329,7 @@ h3 {
 input.tweet {
   background-color: #F5F9FE;
   color: #006FF2;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .btn-cta {
@@ -326,11 +339,15 @@ input.tweet {
 p {
   font-size: 1rem;
   text-transform: uppercase;
-  letter-spacing: 4px;
 }
 
 h6 {
   text-transform: uppercase;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  opacity: 0.75;
+  letter-spacing: 0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -353,14 +370,6 @@ h6 {
   }
 } */
 
-h6 {
-  font-size: 12px;
-  opacity: 0.75;
-  font-family: 'SpaceGrotesk-Regular', sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  letter-spacing: 1.5px;
-}
 .center p {
 margin-top: 1rem;
 display: none;
@@ -374,9 +383,10 @@ h6.footer.mob {
 @media only screen and (min-width: 768px) {
   .center p {
     display: block;
-    font-size: 1rem;
     opacity: .75;
-    font-family: 'SpaceGrotesk-Regular';
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    font-size: 0.875rem;
   }
 }
 
@@ -397,6 +407,7 @@ header a, .content p {
   font-size: 0.75rem;
   letter-spacing: 1.5px;
   text-decoration: none;
+  font-weight: 400;
 }
 
 .content p {
@@ -437,8 +448,58 @@ h6.footer.desk {
   
 }
 
+.about .footer a {
+  color: rgba(255, 255, 255, .60);
+
+}
+
 a {
   text-decoration: none;
+}
+
+/* about */
+body.about {
+  background-color: #006ff2;
+}
+
+.about header a, .about .content p, .about h2, .about h4 {
+  color: #ffffff;
+}
+
+.about .content p {
+  text-transform: none;
+  letter-spacing: 0;
+  line-height: 1.5;
+  opacity: .80;
+  font-weight: 400;
+}
+
+.about-content {
+  padding-right: 15vw;
+}
+
+h2#outpu {
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 4rem;
+}
+
+.about h6.footer.desk {
+  color: #ffffff;
+}
+
+ul.naval-links li {
+  list-style: none;
+  margin: .5rem;
+}
+
+ul.naval-links li a{
+  color: #006ff2;
+  font-size: 1rem;
 }
 /*
 .modal-window {
