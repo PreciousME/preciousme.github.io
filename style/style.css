@@ -274,7 +274,7 @@ header {
 }
 
 a#btn, input.tweet {
-  font-family: 'SpaceGrotesk-Bold', sans-serif;
+  font-family: 'SpaceGrotesk-SemiBold', sans-serif;
   font-size: 1.25rem;
   border: none;
   width: -webkit-fill-available;
@@ -284,19 +284,19 @@ a#btn, input.tweet {
 
 @media only screen and (min-width: 768px) {
 a#btn, input.tweet {
-  font-size: 48px;
+  font-size: 3rem;
   height: 50vh;
 }
 }
 
 h3 {
   font-size: 1.25rem;
-  font-family: 'SpaceGrotesk-Bold', sans-serif;
+  font-family: 'SpaceGrotesk-SemiBold', sans-serif;
 }
 
 @media only screen and (min-width: 768px) {
   h3 {
-    font-size: 48px;
+    font-size: 3rem;
   }
 }
 
@@ -355,9 +355,8 @@ h6 {
   }
 } */
 
-.center p, h6 {
+h6 {
   font-size: 12px;
-  font-weight: 400;
   opacity: 0.75;
 }
 .center p {
@@ -369,12 +368,6 @@ display: none;
   .center p {
     display: block;
   }
-}
-
-.content p {
-  /* text-align: right; */
-  font-size: 13px;
-  opacity: .5;
 }
 
 /*
@@ -389,15 +382,20 @@ display: none;
   bottom: 84px;
 }*/
 
-header a {
+header a, .content p {
   color: #080808;
   font-size: 0.75rem;
   letter-spacing: 1.5px;
   text-decoration: none;
 }
 
+.content p {
+  /* text-align: right; */
+  opacity: .5;
+}
+
 @media only screen and (min-width: 768px) {
-  header a {
+  header a, .content p {
     font-size: 1rem;
   }
 }
