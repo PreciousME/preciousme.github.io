@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'SpaceGrotesk-SemiBold';
+  src: url('SpaceGrotesk-SemiBold.eot?#iefix') format('embedded-opentype'),  url('SpaceGrotesk-SemiBold.otf')  format('opentype'),
+	     url('SpaceGrotesk-SemiBold.woff') format('woff'), url('SpaceGrotesk-SemiBold.ttf')  format('truetype'), url('SpaceGrotesk-SemiBold.svg#SpaceGrotesk-SemiBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

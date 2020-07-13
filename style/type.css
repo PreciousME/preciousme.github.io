@@ -1,0 +1,41 @@
+
+@font-face {
+    font-family: 'SpaceGrotesk-Light';
+    src: url('fonts/SpaceGrotesk-Light.eot?#iefix') format('embedded-opentype'),  url('fonts/SpaceGrotesk-Light.otf')  format('opentype'),
+           url('fonts/SpaceGrotesk-Light.woff') format('woff'), url('fonts/SpaceGrotesk-Light.ttf')  format('truetype'), url('fonts/SpaceGrotesk-Light.svg#SpaceGrotesk-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'SpaceGrotesk-Regular';
+    src: url('fonts/SpaceGrotesk-Regular.eot?#iefix') format('embedded-opentype'),  url('fonts/SpaceGrotesk-Regular.otf')  format('opentype'),
+           url('fonts/SpaceGrotesk-Regular.woff') format('woff'), url('fonts/SpaceGrotesk-Regular.ttf')  format('truetype'), url('fonts/SpaceGrotesk-Regular.svg#SpaceGrotesk-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'SpaceGrotesk-Medium';
+    src: url('fonts/SpaceGrotesk-Medium.eot?#iefix') format('embedded-opentype'),  url('fonts/SpaceGrotesk-Medium.otf')  format('opentype'),
+           url('fonts/SpaceGrotesk-Medium.woff') format('woff'), url('fonts/SpaceGrotesk-Medium.ttf')  format('truetype'), url('fonts/SpaceGrotesk-Medium.svg#SpaceGrotesk-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'SpaceGrotesk-SemiBold';
+    src: url('fonts/SpaceGrotesk-SemiBold.eot?#iefix') format('embedded-opentype'),  url('fonts/SpaceGrotesk-SemiBold.otf')  format('opentype'),
+           url('fonts/SpaceGrotesk-SemiBold.woff') format('woff'), url('fonts/SpaceGrotesk-SemiBold.ttf')  format('truetype'), url('fonts/SpaceGrotesk-SemiBold.svg#SpaceGrotesk-SemiBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'SpaceGrotesk-Bold';
+    src: url('fonts/SpaceGrotesk-Bold.eot?#iefix') format('embedded-opentype'),  url('fonts/SpaceGrotesk-Bold.otf')  format('opentype'),
+           url('fonts/-Bold.woff') format('woff'), url('fonts/SpaceGrotesk-Bold.ttf')  format('truetype'), url('fonts/SpaceGrotesk-Bold.svg#SpaceGrotesk-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+          

@@ -1,3 +1,5 @@
+@import 'type.css';
+
 /*
 *
 *  Golden Grid System (1.01)	<http://goldengridsystem.com/>
@@ -62,6 +64,10 @@ html {
 body {
   min-height: 100%;
   font-size: 100%;
+  font-weight: normal;
+  font-style: normal;
+  position: relative;
+  font-family: 'SpaceGrotesk-Regular', sans-serif;
 }
 article,
 aside,
@@ -202,15 +208,12 @@ h1 {
     font-weight: 700;
 } */
 
-body {
-  font-family: Space Grotesk;
-  position: relative;
-}
 
 h1 {
   color: #006FF2;
   font-size: 2rem;
   line-height: 1.3;
+  font-family: 'SpaceGrotesk-Bold', sans-serif;
 }
 @media only screen and (min-width: 768px) {
   h1 {
@@ -269,12 +272,11 @@ header {
 }
 
 a#btn, input.tweet {
-  font-family: inherit;
+  font-family: 'SpaceGrotesk-Bold', sans-serif;
   font-size: 1.25rem;
   border: none;
   width: -webkit-fill-available;
   color: white;
-  font-weight: 600;
   height: 52px;
 }
 
@@ -287,6 +289,7 @@ a#btn, input.tweet {
 
 h3 {
   font-size: 1.25rem;
+  font-family: 'SpaceGrotesk-Bold', sans-serif;
 }
 
 @media only screen and (min-width: 768px) {
@@ -387,8 +390,7 @@ display: none;
 header a {
   color: #080808;
   font-size: 0.75rem;
-  letter-spacing: 2px;
-  font-weight: 400;
+  letter-spacing: 1.5px;
   text-decoration: none;
 }
 
