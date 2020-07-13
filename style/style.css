@@ -359,6 +359,7 @@ h6 {
   font-family: 'SpaceGrotesk-Regular', sans-serif;
   font-weight: normal;
   font-style: normal;
+  letter-spacing: 1.5px;
 }
 .center p {
 margin-top: 1rem;
