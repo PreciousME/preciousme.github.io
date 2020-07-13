@@ -356,6 +356,9 @@ h6 {
 h6 {
   font-size: 12px;
   opacity: 0.75;
+  font-family: 'SpaceGrotesk-Regular', sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 .center p {
 margin-top: 1rem;
