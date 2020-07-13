@@ -64,8 +64,8 @@ html {
 body {
   min-height: 100%;
   font-size: 100%;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: normal !important;
+  font-style: normal !important;
   position: relative;
   font-family: 'SpaceGrotesk-Regular', sans-serif;
 }
