@@ -330,8 +330,6 @@ p {
 }
 
 h6 {
-  margin-top: 20vh;
-  margin-bottom: 25vh;
   text-transform: uppercase;
 }
 
@@ -364,9 +362,17 @@ margin-top: 1rem;
 display: none;
 }
 
+h6.footer.mob {
+  margin-top: 16rem;
+  margin-bottom: 6rem;
+}
+
 @media only screen and (min-width: 768px) {
   .center p {
     display: block;
+    font-size: 1rem;
+    opacity: .75;
+    font-family: 'SpaceGrotesk-Regular';
   }
 }
 
@@ -400,13 +406,25 @@ header a, .content p {
   }
 }
 
-.footer {
-  margin-left: 2rem;
-}
+
 
 @media only screen and (min-width: 768px) {
   .footer {
     margin-left: 4rem;
+  }
+}
+
+h6.footer.desk {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  h6.footer.mob {
+    display: none;
+  }
+
+  h6.footer.desk {
+    display: block;
   }
 }
 
