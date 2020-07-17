@@ -269,6 +269,12 @@ header {
   bottom: 0;
   z-index: 1;
 }
+@media only screen and (max-width: 768px) {
+.about .ctas {
+  position: relative;
+}
+}
+
 @media only screen and (min-width: 768px) {
   .ctas {
     width: 34%;
@@ -324,6 +330,13 @@ h3 {
   }  
 }
 
+@media only screen and (max-width: 768px) {
+  .about input.tweet {
+    display: none;
+  }
+}
+
+
 
 
 input.tweet {
@@ -370,6 +383,25 @@ h6 {
   text-align: center;
 }
 
+@media only screen and (max-width: 768px) {
+  .about .center {
+    position: relative;
+    left: unset;
+    right: unset;
+    transform: unset;
+    text-align: left;
+    margin-top: 4rem;
+  }
+  .about .next {
+    background-color: transparent;
+  }
+
+  .about h3 {
+    color: #ffffff;
+  }
+}
+
+
 /*@media only screen and (min-width: 768px) {
   .center p {
     display: block;
@@ -384,6 +416,10 @@ display: none;
 h6.footer.mob {
   margin-top: 16rem;
   margin-bottom: 7rem;
+}
+
+.about h6.footer.mob {
+  margin-top: 20rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -478,10 +514,14 @@ body.about {
   line-height: 1.5;
   opacity: .80;
   font-weight: 400;
+  font-size: 1.25rem;
 }
 
-.about-content {
-  padding-right: 15vw;
+@media only screen and (min-width: 768px) {
+  .about .content p {
+    padding-right: 20vw;
+  }
+
 }
 
 h2#outpu {
@@ -500,12 +540,57 @@ h4 {
 
 ul.naval-links li {
   list-style: none;
-  margin: .5rem;
+  margin: 1rem 0 0 0;
+}
+
+@media only screen and (min-width: 768px) {
+  ul.naval-links li {
+    margin: .5rem;
+  }
 }
 
 ul.naval-links li a{
-  color: #006ff2;
+  color: #ffffff;
   font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+
+}
+
+@media only screen and (min-width: 768px) {
+  ul.naval-links li a{
+    color: #006FF2;
+  }
+
+}
+
+.about p.tiny {
+  font-size: .75rem;
+  opacity: .75;
+  line-height: 1.5;
+}
+
+#outpu a {
+  color: #fff;
+  opacity: .75;
+}
+
+#outpu a:hover {
+  opacity: 1;
+}
+
+.credits-desk {
+  display: none;
+}
+
+.ctas-mob {
+  display: none;
+}
+
+.about h6.footer.mob {
+  color: #ffffff;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
 }
 /*
 .modal-window {
