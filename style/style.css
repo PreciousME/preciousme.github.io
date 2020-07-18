@@ -282,7 +282,7 @@ header {
   }
 }
 
-a#btn, input.tweet {
+a#btn, input.tweet, a.tweet {
   font-size: 1.25rem;
   border: none;
   width: -webkit-fill-available;
@@ -292,7 +292,7 @@ a#btn, input.tweet {
 }
 
 @media only screen and (min-width: 768px) {
-a#btn, input.tweet {
+a#btn, input.tweet, a.tweet {
   font-size: 3rem;
   height: 50vh;
 }
@@ -339,7 +339,7 @@ h3 {
 
 
 
-input.tweet {
+input.tweet, a.tweet {
   background-color: #F5F9FE;
   color: #006FF2;
   font-family: 'IBM Plex Sans', sans-serif;
@@ -390,7 +390,7 @@ h6 {
     right: unset;
     transform: unset;
     text-align: left;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
   .about .next {
     background-color: transparent;

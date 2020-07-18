@@ -1,4 +1,5 @@
 let btn = document.getElementById('btn');
+let tweeet = document.getElementById('tweeet');
 let output = document.getElementById('output');
 let quotes = [
     '"Confucius had a great saying that every man has two lives, and the second starts when he realizes he has just one."',
@@ -298,6 +299,10 @@ btn.addEventListener('click', function(){
 
 })
 
+tweeet.addEventListener('click', function(){
+    var tweetQuote = window.open('https://twitter.com/intent/tweet?text=' + output.innerHTML + ' - @naval' + ' via @RandomNaval');
+})
+
 document.addEventListener("DOMContentLoaded", function(){
     var randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
     output.innerHTML = randomQuote;
@@ -311,3 +316,4 @@ window.onkeydown = function(event){
 // window.onload(function(){
   
 // })
+
