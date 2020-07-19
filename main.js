@@ -244,7 +244,7 @@ let quotes = [
 
     '“Politics is the exercise of power without merit.”',
 
-    '“Politics and merit are opposite ends of a spectrum. More political organizations are less productive, have less inequality, and top performers opt out. More merit based organizations have higher productivity, more inequality, and higher odds of internal fracture.”',
+    '“Politics and merit are opposite ends of a spectrum. More political organizations are less productive, have less inequality, and top performers opt-out. More merit-based organizations have higher productivity, more inequality, and higher odds of internal fracture.”',
 
     '“You can have the mind or you can have the moment.”',
 

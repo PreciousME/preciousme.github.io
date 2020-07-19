@@ -226,7 +226,13 @@ h1, h2 {
 .content {
  padding: 2rem;
 }
+
 @media only screen and (min-width: 768px) {
+  .content {
+    padding: 4rem;
+  }
+}
+@media only screen and (min-width: 800px) {
   .content {
   padding: 3rem 4rem 4rem 4rem;
   width: 58.42vw;
@@ -240,7 +246,7 @@ h1, h2 {
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
   .all {
     display: flex;
   }
@@ -275,7 +281,7 @@ header {
 }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
   .ctas {
     width: 34%;
     right: 0;
@@ -291,7 +297,7 @@ a#btn, input.tweet, a.tweet {
   font-weight: 500;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
 a#btn, input.tweet, a.tweet {
   font-size: 3rem;
   height: 50vh;
@@ -303,7 +309,7 @@ h3 {
   font-weight: 500;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
   h3 {
     font-size: 3rem;
   }
@@ -314,6 +320,8 @@ h3 {
   height: 52px;
   position: relative;
   font-size: 1.25rem;
+  transition: 0.3s;
+  opacity: 1;
 }
 
 .about .next {
@@ -324,7 +332,7 @@ h3 {
   color: #080808;
   font-size: 2rem;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
   .next {
     height: 50vh;
   }  
@@ -343,6 +351,17 @@ input.tweet, a.tweet {
   background-color: #F5F9FE;
   color: #006FF2;
   font-family: 'IBM Plex Sans', sans-serif;
+  outline: none;
+  transition: 0.3s;
+  opacity: 1;
+}
+
+input#tweeet:hover {
+  opacity: .9;
+}
+
+header a:hover {
+  opacity: .7;
 }
 
 .btn-cta {
@@ -417,12 +436,11 @@ h6.footer.mob {
   margin-top: 16rem;
   margin-bottom: 7rem;
 }
-
 .about h6.footer.mob {
   margin-top: 20rem;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
   .center p {
     display: block;
     opacity: .75;
@@ -431,6 +449,12 @@ h6.footer.mob {
     font-size: 0.875rem;
   }
 }
+
+.next:hover {
+  opacity: .9;
+}
+
+
 
 /*
 .btn-cta p {
@@ -450,6 +474,8 @@ header a, .content p {
   letter-spacing: 1.5px;
   text-decoration: none;
   font-weight: 400;
+  opacity: 1;
+  transition: .3s;
 }
 
 .content p {
@@ -644,3 +670,4 @@ ul.naval-links li a{
 .modal-close:hover {
   color: black;
 }*/
+
