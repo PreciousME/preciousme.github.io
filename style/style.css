@@ -450,11 +450,13 @@ h6.footer.mob {
   }
 }
 
+.about .next:hover {
+  opacity: 1;
+}
+
 .next:hover {
   opacity: .9;
 }
-
-
 
 /*
 .btn-cta p {
