@@ -252,6 +252,10 @@ h1, h2 {
   }
 }
 
+.interior h6 {
+  margin-left: 2rem;
+}
+
 h1#output, h2#outpu {
   margin: 20vh 0 2rem 0;
 }
@@ -275,9 +279,13 @@ header {
   bottom: 0;
   z-index: 1;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
 .about .ctas {
   position: relative;
+}
+
+a.chrome {
+  display: none;
 }
 }
 
@@ -470,7 +478,7 @@ h6.footer.mob {
   bottom: 84px;
 }*/
 
-header a, .content p {
+header a, .content p, .interior h6 {
   color: #080808;
   font-size: 0.75rem;
   letter-spacing: 1.5px;
@@ -486,14 +494,15 @@ header a, .content p {
 }
 
 @media only screen and (min-width: 768px) {
-  header a, .content p {
+  header a, .content p, .interior h6 {
     font-size: 1rem;
+    margin-bottom: 0vh;
   }
 }
 
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
   .footer {
     margin-left: 4rem;
   }
@@ -503,7 +512,7 @@ h6.footer.desk {
   display: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 800px) {
   h6.footer.mob {
     display: none;
   }
@@ -619,6 +628,28 @@ ul.naval-links li a{
   color: #ffffff;
   margin-bottom: 4rem;
   margin-left: 2rem;
+}
+
+.interior p {
+  font-size: 12px;
+  position: absolute;
+  right: 2px;
+  text-transform: unset;
+  letter-spacing: 0;
+  color: #080808;
+  opacity: 1;
+  background-color: #f5f9fe;
+  padding: 4px 8px;
+  line-height: 1;
+  top: 21px;
+}
+
+.interior {
+  position: relative;
+  display: flex;
+}
+h6.chrome {
+  opacity: .5;
 }
 /*
 .modal-window {
