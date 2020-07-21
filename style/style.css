@@ -289,6 +289,10 @@ a.chrome {
 }
 }
 
+a.chrome {
+  margin-left: 2rem;
+}
+
 @media only screen and (min-width: 800px) {
   .ctas {
     width: 34%;
