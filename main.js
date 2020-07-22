@@ -344,7 +344,19 @@ let quotes = [
 
     '"Become the best in the world at what you do. Keep redefining what you do until this is true."',
 
-    "'When you're finally wealthy, you'll realize that it wasn't what you were seeking in the first place.'"
+    "'When you're finally wealthy, you'll realize that it wasn't what you were seeking in the first place.'",
+
+    '"Equity is the new land. Shareholder is the new landowner."',
+
+    '"Better bored than busy."',
+
+    '"The modern devil is cheap dopamine."',
+
+    '"Self-improvement is the modern God."',
+
+    '"Everyone has good intentions. Everyone believes they’re doing it for someone or something else. The only true measures are actions and results."',
+
+    "'Don't minimize costs - maximize revenues.'"
 
 ];
 
