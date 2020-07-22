@@ -340,13 +340,6 @@ let quotes = [
 
     "'Set and enforce an aspirational personal hourly rate. If fixing a problem will save less than your hourly rate, ignore it. If outsourcing a task will cost less than your hourly rate, outsource it.'"
 
-
-
-
-    
-
-
-
 ];
 
 btn.addEventListener('click', function(){
