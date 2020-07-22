@@ -254,7 +254,7 @@ h1, h2 {
 }
 
 h1#output, h2#outpu {
-  margin: 20vh 0 2rem 0;
+  margin: 20vh 0 1rem 0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -267,6 +267,10 @@ h1#output, h2#outpu {
 header {
   display: flex;
   justify-content: space-between;
+}
+
+img.phi {
+  margin-top: 3rem;
 }
 
 
