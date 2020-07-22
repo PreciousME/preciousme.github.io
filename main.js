@@ -338,7 +338,13 @@ let quotes = [
 
     '"Reading is faster than listening. Doing is faster than watching."',
 
-    "'Set and enforce an aspirational personal hourly rate. If fixing a problem will save less than your hourly rate, ignore it. If outsourcing a task will cost less than your hourly rate, outsource it.'"
+    "'Set and enforce an aspirational personal hourly rate. If fixing a problem will save less than your hourly rate, ignore it. If outsourcing a task will cost less than your hourly rate, outsource it.'",
+
+    '"Work as hard as you can. Even though who you work with and what you work on are more important than how hard you work."',
+
+    '"Become the best in the world at what you do. Keep redefining what you do until this is true."',
+
+    "'When you're finally wealthy, you'll realize that it wasn't what you were seeking in the first place.'"
 
 ];
 
