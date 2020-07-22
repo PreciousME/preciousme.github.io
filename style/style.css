@@ -285,12 +285,12 @@ img.phi {
   position: relative;
 }
 
-a.chrome {
+a.chrome, .interior h6, .interior p {
   display: none;
 }
 }
 
-a.chrome {
+a.chrome, h6.chromes {
   margin-left: 2rem;
 }
 
@@ -654,7 +654,7 @@ ul.naval-links li a{
   position: relative;
   display: flex;
 }
-h6.chrome {
+h6.chromes {
   opacity: .5;
 }
 /*
