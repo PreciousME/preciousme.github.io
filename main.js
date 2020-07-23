@@ -66,7 +66,7 @@ let quotes = [
 
     '“A rational person can find peace by cultivating indifference to things outside of their control.”',
 
-    '“Peace is happiness at rest, and happiness is peace in motion. You can convert peace to happiness any time you want, but peace is want you want most of the time…If you’re a peaceful person, anything you do will be a happy activity.”',
+    '“Peace is happiness at rest, and happiness is peace in motion. You can convert peace to happiness any time you want, but peace is what you want most of the time…If you’re a peaceful person, anything you do will be a happy activity.”',
 
     '“Peace is happiness at rest, and happiness is peace in motion. You can convert peace to happiness any time you want, but peace is want you want most of the time…If you’re a peaceful person, anything you do will be a happy activity.”“People who live far below their means enjoy a freedom that people busy upgrading their lifestyles can’t fathom.”',
 
