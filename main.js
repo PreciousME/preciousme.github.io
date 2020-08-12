@@ -398,7 +398,24 @@ let quotes = [
 
     '"Reading is more efficient when at rest. Audio is more efficient when in motion."',
 
-    "'If you can't decide, the answer is No.'"
+    "'If you can't decide, the answer is No.'",
+
+    '"The closer you are to the truth, the more silent you become inside."',
+
+    '"True religion is rejecting all teachings and thinking for yourself."',
+
+    '"Notifications are just alarm clocks that someone else is setting for you."',
+
+    '"An early exit for your startup is a mirage in the desert. If you thirst for it, it disappears."',
+
+    '"The selfish reason to be ethical is that it attracts the other ethical people in the network."',
+
+    '"Making money through an early lucky trade is the worst way to win. The bad habits that it reinforces will lead to a lifetime of losses."',
+
+    '"Self-image is the prison. Other people are the guards."'
+
+    
+
 
 
 ];
