@@ -382,11 +382,23 @@ let quotes = [
 
     '"I, and I alone, am responsible for everything I think and feel."',
 
-    '""Guided by Science” is the new “Listen to your Parents.”"'
+    '""Guided by Science” is the new “Listen to your Parents.”"',
 
+    '"Startups shouldn’t worry about how to put out fires, they should worry about how to start them."',
 
+    '"If you eat, invest, and think according to what the ‘news’ advocates, you’ll end up nutritionally, financially and morally bankrupt."',
 
+    '"Read what you love until you love to read."',
 
+    '"The way to inspiration is to struggle, then release."',
+
+    '"Knowing how little you matter is very important for your mental health and your happiness"',
+
+    "'It's never been easier to start a company. It's never been harder to build one.'",
+
+    '"Reading is more efficient when at rest. Audio is more efficient when in motion."',
+
+    "'If you can't decide, the answer is No.'"
 
 
 ];
