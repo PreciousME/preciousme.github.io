@@ -356,7 +356,38 @@ let quotes = [
 
     '"Everyone has good intentions. Everyone believes they’re doing it for someone or something else. The only true measures are actions and results."',
 
-    "'Don't minimize costs - maximize revenues.'"
+    "'Don't minimize costs - maximize revenues.'",
+
+    '"Your company may not be in the software business, but eventually, a software company will be in your business."',
+
+    '"Your worldview is your world."',
+
+    '"Clear Thinker" is a better compliment than "Smart."',
+
+    '"Your goal in life is to find out the people who need you the most, to find out the business that needs you the most, to find the project and the art that needs you the most. There is something out there just for you.',
+
+    '"The ability to stay calm during conflict is a superpower."',
+
+    '"It’s not the thing itself we fear, it’s our reaction to it."',
+
+    '"To see if you have free will, just stop exercising it."',
+
+    '"It’s only the misfits who have a chance."',
+
+    '"Subtract incentives from advice."',
+
+    '"If you build for yourself, you’ll always have product-market fit."',
+
+    '"Flow is always there. You’re just in the way."',
+
+    '"I, and I alone, am responsible for everything I think and feel."',
+
+    '""Guided by Science” is the new “Listen to your Parents.”"'
+
+
+
+
+
 
 ];
 
